@@ -1,0 +1,15 @@
+body {}
+
+#images-block {
+    align-content: center;
+}
+
+img,
+#images-block {
+    display: inline-block;
+    border: 2px solid blue;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
